@@ -1,0 +1,1 @@
+# nuxt3-vuetify3-supabase
