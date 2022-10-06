@@ -1,4 +1,6 @@
-<template>    
+<template>
+<div>   
     <AppNavBar />
-    <slot />     
+    <slot />  
+</div>    
 </template>
