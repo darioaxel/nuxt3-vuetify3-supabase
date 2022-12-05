@@ -18,7 +18,7 @@
 
   <script setup lang="ts">
 
-const password = ref('');
+const password = ref('yokozuna');
 const name = ref('');
 const email = ref('');
 const user = useSupabaseUser();
@@ -34,7 +34,7 @@ const emailRules = [
   ];
 const router = useRouter()
 // Login method using providers
-
+console.log(email.value, " ", password.value)
 const login = async () => {
   const { error } = await auth.signIn({
           email: email.value,

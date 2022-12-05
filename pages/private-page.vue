@@ -1,1 +1,4 @@
-<template>Hey! this is a private page!!! </template>
+<template>
+    <InserDataForm />
+Hey! this is a private page!!! 
+</template>
